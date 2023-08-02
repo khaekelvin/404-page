@@ -56,3 +56,42 @@ img {
     transform: translateY(-10px);
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    text-align: center;
+  }
+  img {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    text-align: center;
+  }
+  img {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    text-align: center;
+  }
+  img {
+    width: 800px;
+  }
+}
