@@ -67,6 +67,7 @@ img {
   }
   img {
     width: 500px;
+    margin-left: 0;
   }
 }
 
@@ -80,6 +81,7 @@ img {
   }
   img {
     width: 600px;
+    margin-left: 0;
   }
 }
 
@@ -93,5 +95,20 @@ img {
   }
   img {
     width: 800px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    text-align: center;
+  }
+  img {
+    width: 400px;
+    margin-left: 0;
   }
 }
